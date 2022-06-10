@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link href="res/style.css" rel="stylesheet">
-    <script src="res/script.js"></script>
+    <script src="res/script.js" defer></script>
     <title>Calculator Page</title>
 </head>
+
 <body>
     <div class="cal-container">
         <div id="result">
-            <div class="op">+</div>
-            <div class="num">0</div>
+            <div class="rel-op"></div>
+            <div class="rel-num">0</div>
         </div>
         <div class="cal-btns">
             <div id="cal-nums">
@@ -29,21 +31,24 @@
                 <button value="2">2</button>
                 <button value="3">3</button>
                 <button value="0">0</button>
-                <button value="dot">.</button>
+                <button value=".">.</button>
                 <button value="mul-10">x10</button>
             </div>
             <div id="cal-op">
-                <button style="background-color: brown;" value="del">DEL</button>
+                <button id="del" style="background-color: brown;" value="del">DEL</button>
                 <button style="background-color: brown;" value="clear">CLEAR</button>
-                <button value="multiple">X</button>
-                <button value="division">/</button>
-                <button value="add">+</button>
-                <button value="minus">-</button>
-                <button value="answer">ANS</button>
-                <button value="equal">=</button>
+                <button value="*">X</button>
+                <button value="/">/</button>
+                <button value="+">+</button>
+                <button value="-">-</button>
+                <button value="ans">ANS</button>
+                <button value="=">=</button>
             </div>
         </div>
     </div>
-    <footer><p>Copyright © mst12n6.</p></footer>
+    <footer>
+        <p>Copyright © mst12n6.</p>
+    </footer>
 </body>
+
 </html>

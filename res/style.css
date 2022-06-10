@@ -1,9 +1,10 @@
-html, body{
+html,
+body {
     margin: 0;
     height: 100%;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,7 +14,7 @@ body{
 
 }
 
-.cal-container{
+.cal-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,7 +30,7 @@ body{
     background-color: gray;
 }
 
-#result{
+#result {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -43,31 +44,33 @@ body{
     background-color: rgb(7, 119, 31);
 }
 
-#result .op{
+#result .rel-op {
     align-self: flex-end;
     font-size: 20px;
 }
 
-#result .num{
+#result .rel-num {
     font-size: 30px;
+    overflow: auto;
 }
 
-.cal-btns{
-    flex: 1;
+.cal-btns {
     display: flex;
     background-color: lightgray;
     padding: 5px;
     border-radius: 10px;
 }
 
-#cal-op, #cal-nums{
+#cal-op,
+#cal-nums {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 2px;
     align-items: center;
 }
 
-button{
+button {
     width: 65px;
     height: 65px;
     background-color: rgb(5, 5, 10);
@@ -77,16 +80,16 @@ button{
     border-radius: 5px;
 }
 
-button:hover{
+button:hover {
     box-shadow: 2px 2px 2px 2px rgb(132, 130, 130);
 }
 
-button:active {
+.active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-footer{
+footer {
     width: 100%;
     color: black;
     font-size: 25px;

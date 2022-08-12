@@ -24,4 +24,4 @@ what you can see on the website is different buttons that represent what you see
 it also supports a keyboard type of input that allows the user to enter the numbers and operation from the device's keyboard.
 
 ### Live preview:
-The project was hosted online via heroku: [Calculator](https://calculator-5.herokuapp.com/)
+The project was hosted: [Here](https://mhdsulaimantan.github.io/Calculator/)
